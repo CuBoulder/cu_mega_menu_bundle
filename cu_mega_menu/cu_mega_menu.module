@@ -358,6 +358,11 @@ function cu_mega_menu_secure_permissions($role) {
       'edit any cu_mega_menu entity',
       'create cu_mega_menu entities',
     ),
+    'administrator' => array(
+      'view any cu_mega_menu entity',
+      'edit any cu_mega_menu entity',
+      'create cu_mega_menu entities',
+    ),
     'site_owner' => array(
       'view any cu_mega_menu entity',
       'edit any cu_mega_menu entity',
