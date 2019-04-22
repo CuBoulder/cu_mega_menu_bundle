@@ -108,7 +108,6 @@ function cu_mega_menu_theme_registry_alter(&$theme_registry) {
 
   $theme_registry['cu_mega_menu']['template'] = 'cu-mega-menu-wrapper';
   $theme_registry['cu_mega_menu']['path'] = drupal_get_path('module', 'cu_mega_menu') . '/templates';
-  dpm($theme_registry['cu_mega_menu']);
 }
 
 /**
